@@ -1,5 +1,5 @@
 //juan carlos gama flores
-
+//Eduardo Josué Contreras Álvarez
 #include <stdio.h>
 #include <unistd.h>
 #include <stdbool.h>
@@ -8,11 +8,7 @@
 #include <conio.h>
 
 
-struct node{
-	char name[20]={'*'};
-	node *left;
-	node *right;
-}
+
 
 
 int main(int argc, char const *argv[])
