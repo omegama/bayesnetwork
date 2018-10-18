@@ -1,0 +1,25 @@
+seudo code
+
+create struct
+	id
+	struct of parents
+	struct with probability tables
+	value of probability
+
+clean input text
+	get node names
+	get prob tables
+
+fill structure
+	get prbability tables from input
+	create relations between nodes
+	set existing probabilities
+
+declare principal node
+
+make probability combinations
+	backtrack probabilities form stat=rt to principal node
+
+chainrule
+	get bayes prob sum from child nodes
+	P(A|B)=P(A,B)/P(B)=P(B|A)P(A)/sum[P(B|A)P(A)]
